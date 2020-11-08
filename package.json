@@ -1,0 +1,26 @@
+{
+  "name": "webpack-sandbox",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack --mode development",
+    "prod": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/toshi-toma-sandbox/webpack-sandbox.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/toshi-toma-sandbox/webpack-sandbox/issues"
+  },
+  "homepage": "https://github.com/toshi-toma-sandbox/webpack-sandbox#readme",
+  "dependencies": {
+    "webpack": "^4.44.2",
+    "webpack-cli": "^4.2.0",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
