@@ -19,6 +19,9 @@
   },
   "homepage": "https://github.com/toshi-toma-sandbox/webpack-sandbox#readme",
   "dependencies": {
+    "@types/webpack": "^4.41.24",
+    "ts-loader": "^8.0.10",
+    "typescript": "^4.0.5",
     "webpack": "^4.44.2",
     "webpack-cli": "^4.2.0",
     "webpack-dev-server": "^3.11.0"

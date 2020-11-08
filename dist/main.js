@@ -117,7 +117,19 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) *
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _esm__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./esm */ \"./src/esm.js\");\n\nconst { cjs } = __webpack_require__(/*! ./cjs */ \"./src/cjs.js\");\n\nconsole.log(\"index.js\", _esm__WEBPACK_IMPORTED_MODULE_0__[\"esm\"], Object(_esm__WEBPACK_IMPORTED_MODULE_0__[\"f\"])() , cjs);\n\n//# sourceURL=webpack:///./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _esm__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./esm */ \"./src/esm.js\");\n/* harmony import */ var _typescript__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./typescript */ \"./src/typescript.ts\");\n/* harmony import */ var _typescript__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_typescript__WEBPACK_IMPORTED_MODULE_1__);\n\nconst { cjs } = __webpack_require__(/*! ./cjs */ \"./src/cjs.js\");\n\n\nconsole.log(\"index.js\", _esm__WEBPACK_IMPORTED_MODULE_0__[\"esm\"], Object(_esm__WEBPACK_IMPORTED_MODULE_0__[\"f\"])() , cjs, _typescript__WEBPACK_IMPORTED_MODULE_1__[\"ts\"]);\n\n//# sourceURL=webpack:///./src/index.js?");
+
+/***/ }),
+
+/***/ "./src/typescript.ts":
+/*!***************************!*\
+  !*** ./src/typescript.ts ***!
+  \***************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\nObject.defineProperty(exports, \"__esModule\", { value: true });\nexports.ts = void 0;\nexports.ts = \"typescript\";\n\n\n//# sourceURL=webpack:///./src/typescript.ts?");
 
 /***/ })
 
