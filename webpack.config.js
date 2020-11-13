@@ -18,6 +18,10 @@ module.exports = () => {
           use: ["style-loader","css-loader"]
         },
         {
+          test: /\.jpe?g$/,
+          use: ["url-loader"]
+        },
+        {
           test: /\.ts$/,
           use: "ts-loader",
         },
