@@ -8,10 +8,15 @@ module.exports = () => {
     entry: path.resolve(__dirname, "src/index.js"),
     output: {
       path: path.resolve(__dirname, "dist"),
-      filename: "[chunkhash].js",
+      // filename: "[chunkhash].js",
+      filename: "bundle.js"
     },
     module: {
       rules: [
+        {
+          test: /\.css$/,
+          use: ["style-loader","css-loader"]
+        },
         {
           test: /\.ts$/,
           use: "ts-loader",
