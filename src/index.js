@@ -10,3 +10,7 @@ import avatar from "../avatar.jpg";
 console.log("index.js", esm, f() , cjs, ts);
 
 console.log(avatar);
+
+const header = document.createElement("h1");
+header.textContent = "Header";
+document.body.appendChild(header);

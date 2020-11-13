@@ -33,7 +33,8 @@ module.exports = () => {
     plugins: [new HtmlWebpackPlugin(), new webpack.ProgressPlugin()],
     devServer: {
       contentBase: path.resolve(__dirname, 'dist'),
-      open: true
+      open: true,
+      hot: true
     }
   };
 };
