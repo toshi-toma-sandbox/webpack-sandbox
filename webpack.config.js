@@ -9,13 +9,14 @@ const mode = process.env.NODE_ENV || "development";
 module.exports = () => {
   const devPlugins = mode === "development" ? [new BundleAnalyzerPlugin()] : [];
   return {
-    mode, 
+    mode,
     entry: path.resolve(__dirname, "src/index.js"),
     output: {
       path: path.resolve(__dirname, "dist"),
       // filename: "[chunkhash].js",
       filename: "bundle.js",
     },
+    devtool: mode === "development" ? 'source-map' : '',
     module: {
       rules: [
         {
