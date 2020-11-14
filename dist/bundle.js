@@ -86,6 +86,18 @@
 /************************************************************************/
 /******/ ({
 
+/***/ "./avatar.jpg":
+/*!********************!*\
+  !*** ./avatar.jpg ***!
+  \********************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"a87a5584abe8389d88dcacbc0d446d59.jpg\");\n\n//# sourceURL=webpack:///./avatar.jpg?");
+
+/***/ }),
+
 /***/ "./node_modules/css-loader/dist/cjs.js!./src/index.css":
 /*!*************************************************************!*\
   !*** ./node_modules/css-loader/dist/cjs.js!./src/index.css ***!
@@ -177,7 +189,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _nod
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _esm__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./esm */ \"./src/esm.js\");\n/* harmony import */ var _typescript__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./typescript */ \"./src/typescript.ts\");\n/* harmony import */ var _typescript__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_typescript__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _index_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./index.css */ \"./src/index.css\");\n/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./style.css */ \"./src/style.css\");\n\nconst { cjs } = __webpack_require__(/*! ./cjs */ \"./src/cjs.js\");\n\n\n\n\n\nconsole.log(\"index.js\", _esm__WEBPACK_IMPORTED_MODULE_0__[\"esm\"], Object(_esm__WEBPACK_IMPORTED_MODULE_0__[\"f\"])() , cjs, _typescript__WEBPACK_IMPORTED_MODULE_1__[\"ts\"]);\n\n//# sourceURL=webpack:///./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _esm__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./esm */ \"./src/esm.js\");\n/* harmony import */ var _typescript__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./typescript */ \"./src/typescript.ts\");\n/* harmony import */ var _typescript__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_typescript__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _index_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./index.css */ \"./src/index.css\");\n/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./style.css */ \"./src/style.css\");\n/* harmony import */ var _avatar_jpg__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../avatar.jpg */ \"./avatar.jpg\");\n\nconst { cjs } = __webpack_require__(/*! ./cjs */ \"./src/cjs.js\");\n\n\n\n\n\n\n\nconsole.log(\"index.js\", _esm__WEBPACK_IMPORTED_MODULE_0__[\"esm\"], Object(_esm__WEBPACK_IMPORTED_MODULE_0__[\"f\"])() , cjs, _typescript__WEBPACK_IMPORTED_MODULE_1__[\"ts\"]);\n\nconsole.log(_avatar_jpg__WEBPACK_IMPORTED_MODULE_4__[\"default\"]);\n\nconst header = document.createElement(\"h1\");\nheader.textContent = \"Header\";\ndocument.body.appendChild(header);\n\n//# sourceURL=webpack:///./src/index.js?");
 
 /***/ }),
 

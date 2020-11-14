@@ -9,17 +9,24 @@ module.exports = () => {
     output: {
       path: path.resolve(__dirname, "dist"),
       // filename: "[chunkhash].js",
-      filename: "bundle.js"
+      filename: "bundle.js",
     },
     module: {
       rules: [
         {
           test: /\.css$/,
-          use: ["style-loader","css-loader"]
+          use: ["style-loader", "css-loader"],
         },
         {
           test: /\.jpe?g$/,
-          use: ["url-loader"]
+          use: [
+            {
+              loader: "url-loader",
+              options: {
+                limit: 5000,
+              },
+            },
+          ],
         },
         {
           test: /\.ts$/,
@@ -32,9 +39,9 @@ module.exports = () => {
     },
     plugins: [new HtmlWebpackPlugin(), new webpack.ProgressPlugin()],
     devServer: {
-      contentBase: path.resolve(__dirname, 'dist'),
+      contentBase: path.resolve(__dirname, "dist"),
       open: true,
-      hot: true
-    }
+      hot: true,
+    },
   };
 };
