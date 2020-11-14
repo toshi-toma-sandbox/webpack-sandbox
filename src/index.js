@@ -21,3 +21,13 @@ img.height = 200;
 img.width = 200;
 
 document.body.appendChild(img);
+
+const button = document.createElement("button");
+button.textContent = "import module";
+button.onclick = () => {
+  import("./dynamic").then(() => {
+    console.log("loaded");
+  });
+};
+
+document.body.appendChild(button);
